@@ -46,19 +46,19 @@ Hero = sprites.create(img`
     . . . . f f f f f . . . . . . . 
     . . . f e e e e e f . . . . . . 
     . . f d d d d e e e f . . . . . 
+    . c d f d d f d e e f . . . . . 
     . c d f d d f d e e f f . . . . 
-    . c d f d d f d e e d d f . . . 
-    c d e e d d d d e e b d c . . . 
+    c d e e d d d d e e d d f . . . 
     c d d d d c d d e e b d c . . . 
-    c c c c c d d e e e f c . . . . 
-    . f d d d d e e e f f . . . . . 
-    . . f f f f f e e e e f . . . . 
-    . . . . f f e e e e e e f . f f 
-    . . . f e e f e e f e e f . e f 
-    . . f e e f e e f e e e f . e f 
-    . f b d f d b f b b f e f f e f 
-    . f d d f d d f d d b e f f f f 
-    . . f f f f f f f f f f f f f . 
+    c c c c c d d e e e b d c . f f 
+    . f d d d d e e e f f c . f e f 
+    . f f f f f f e e e e f . f e f 
+    . f f f f e e e e e e e f f e f 
+    f d d f d d f e f e e e e f f . 
+    f d b f d b f e f e e e e f . . 
+    f f f f f f f f f f f f e f . . 
+    . . . . . . . . . f c d d f . . 
+    . . . . . . . . . . f f f f . . 
     `, SpriteKind.Player)
 let End = sprites.create(img`
     . . . . c c c b b b b b . . . . 
@@ -86,19 +86,19 @@ Hero.z = 100
 game.onUpdateInterval(2500, function () {
     Car01 = sprites.create(img`
         . . . . . . . . . . . . . . . . 
-        . . . . . . 6 6 6 6 6 6 6 6 . . 
-        . . . . . 6 c 6 6 6 6 6 6 9 6 . 
-        . . . . 6 c c 6 6 6 6 6 6 9 c 6 
-        . . d 6 9 c c 6 9 9 9 9 9 9 c c 
-        . d 6 6 9 c b 8 8 8 8 8 8 8 6 c 
-        . 6 6 6 9 b 8 8 b b b 8 b b 8 6 
-        . 6 6 6 6 6 8 b b b b 8 b b b 8 
-        . 6 6 6 6 8 6 6 6 6 6 8 6 6 6 8 
-        . 6 d d 6 8 f 8 8 8 f 8 8 8 8 8 
-        . d d 6 8 8 8 f 8 8 f 8 8 8 8 8 
-        . 8 8 8 8 8 8 8 f f f 8 8 8 8 8 
-        . 8 8 8 8 f f f 8 8 8 8 f f f f 
-        . . . 8 f f f f f 8 8 f f f f f 
+        . . . . . . 3 3 3 3 3 3 3 3 . . 
+        . . . . . 3 c 3 3 3 3 3 3 d 3 . 
+        . . . . 3 c c 3 3 3 3 3 3 d c 3 
+        . . d 3 d c c 3 d d d d d d c c 
+        . d 3 3 d c b a a a a a a a 3 c 
+        . 3 3 3 d b a a b b b a b b a 3 
+        . 3 3 3 3 3 a b b b b a b b b a 
+        . 3 3 3 3 a 3 3 3 3 3 a 3 3 3 a 
+        . 3 d d 3 a f a a a f a a a a a 
+        . d d 3 a a a f a a f a a a a a 
+        . a a a a a a a f f f a a a a a 
+        . a a a a f f f a a a a f f f f 
+        . . . a f f f f f a a f f f f f 
         . . . . f f f f . . . . f f f . 
         . . . . . . . . . . . . . . . . 
         `, SpriteKind.Enemy)
