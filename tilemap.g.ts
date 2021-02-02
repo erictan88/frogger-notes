@@ -82,7 +82,7 @@ namespace myTiles {
 . . . . . . . . . . . . . . . . 
 `, [myTiles.transparency16], TileScale.Sixteen);
             case "level1":
-            case "level1":return tiles.createTilemap(hex`0a000f00000e10100f101010100e10100f0f0e10100f10100e10100f101010100e1001010101010101010101111111111111111111110a08080808080808080c0b09090909090909090d0202020202020202020202020202020202020202020202020202020202020304040405050305050305050504030404040405010101010101010101010606060606060606060607070707070707070707`, img`
+            case "level1":return tiles.createTilemap(hex`0a000f00000e10100f101010100e10100f0f0e10100f10100e10100f101010100e1001010101010101010101010101010101010101010a08080808080808080c0b09090909090909090d0202020202020202020202020202020202020202020202020202020202020304040405050305050305050504030404040405010101010101010101010606060606060606060607070707070707070707`, img`
 . . . . . . . . . . 
 . . . . . . . . . . 
 . . . . . . . . . . 
@@ -98,7 +98,7 @@ namespace myTiles {
 . . . . . . . . . . 
 . . . . . . . . . . 
 . . . . . . . . . . 
-`, [myTiles.transparency16,sprites.dungeon.hazardWater,sprites.vehicle.roadHorizontal,sprites.castle.tileGrass2,sprites.castle.tileGrass1,sprites.castle.tileGrass3,sprites.builtin.forestTiles22,sprites.builtin.forestTiles19,sprites.castle.tilePath2,sprites.castle.tilePath8,sprites.castle.tilePath1,sprites.castle.tilePath7,sprites.castle.tilePath3,sprites.castle.tilePath9,sprites.castle.tileDarkGrass2,sprites.castle.tileDarkGrass1,sprites.castle.tileDarkGrass3,myTiles.tile1], TileScale.Sixteen);
+`, [myTiles.transparency16,sprites.dungeon.hazardWater,sprites.vehicle.roadHorizontal,sprites.castle.tileGrass2,sprites.castle.tileGrass1,sprites.castle.tileGrass3,sprites.builtin.forestTiles22,sprites.builtin.forestTiles19,sprites.castle.tilePath2,sprites.castle.tilePath8,sprites.castle.tilePath1,sprites.castle.tilePath7,sprites.castle.tilePath3,sprites.castle.tilePath9,sprites.castle.tileDarkGrass2,sprites.castle.tileDarkGrass1,sprites.castle.tileDarkGrass3], TileScale.Sixteen);
         }
         return null;
     })
