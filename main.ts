@@ -11,10 +11,10 @@ controller.right.onEvent(ControllerButtonEvent.Pressed, function () {
     Hero.x += 16
 })
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.hazardWater, function (sprite, location) {
-    if (Hero.overlapsWith(Raft) || Hero.overlapsWith(Raft3)) {
-        Hero.setVelocity(50, 0)
-    } else if (Hero.overlapsWith(Raft2)) {
-        Hero.setVelocity(-40, 0)
+    if (sprite.overlapsWith(Raft) || sprite.overlapsWith(Raft3)) {
+        sprite.setVelocity(50, 0)
+    } else if (sprite.overlapsWith(Raft2)) {
+        sprite.setVelocity(-40, 0)
     } else {
         info.changeLifeBy(-1)
         sprite.y += 16
