@@ -21,46 +21,6 @@ e e b e c c e e e e e c e b e e
 . e e b b 4 4 4 4 4 4 4 4 e e . 
 . . . c c c c c e e e e e . . . 
 `;
-            case "image1":return img`
-eeeeebbbbbbeeeeeeeeeebbbbbbeeeee
-eeebbddddddbbeeeeeebbddddddbbeee
-eebbddbbbbddbbeeeebbddbbbbddbbee
-eedbdbddddbdbdeeeedbdbddddbdbdee
-efdbddbbbbddbdeeefdbddbbbbddbdee
-efbdbbddddbbdbeeefbdbbddddbbdbee
-efedddbbbbdddeeeefedddbbbbdddeee
-effebddddddbeefeeffebddddddbeefe
-effeeeeeeeeeeefeeffeeeeeeeeeeefe
-effeeefeeeeeeefeeffeeefeeeeeeefe
-effefeeeffeefeefeffefeeeffeefeef
-efeefefefefefeeeefeefefefefefeee
-ffeeeefeeffeffeeffeeeefeeffeffee
-feeeeffeeeeefffefeeeeffeeeeefffe
-eeeefffefeeeefffeeeefffefeeeefff
-eeeefffefeeeefffeeeefffefeeeefff
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-`;
-            case "image2":return img`
-. . . . . . . . . . . . . . . . 
-. . . . 3 3 3 3 3 3 3 3 . . . . 
-. . . 3 d 3 3 3 3 3 3 c 3 . . . 
-. . 3 c d 3 3 3 3 3 3 c c 3 . . 
-. 3 c c d d d d d d 3 c c d 3 d 
-. 3 c 3 a a a a a a a b c d 3 3 
-. 3 3 a b b a b b b a a b d 3 3 
-. 3 a b b b a b b b b a 3 3 3 3 
-. a a 3 3 3 a 3 3 3 3 3 a 3 3 3 
-. a a a a a a f a a a f a 3 d d 
-. a a a a a a f a a f a a a 3 d 
-. a a a a a a f f f a a a a a a 
-. a f f f f a a a a f f f a a a 
-. . f f f f f a a f f f f f a . 
-. . . f f f . . . . f f f f . . 
-. . . . . . . . . . . . . . . . 
-`;
             case "image3":return img`
 eeeeebbbbbbeeeeeeeeeebbbbbbeeeeeeeeeebbbbbbeeeeeeeeeebbbbbbeeeee
 eeebbddddddbbeeeeeebbddddddbbeeeeeebbddddddbbeeeeeebbddddddbbeee

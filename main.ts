@@ -205,9 +205,6 @@ game.onUpdateInterval(2000, function () {
     tiles.placeOnTile(Raft3, tiles.getTileLocation(0, 4))
     Raft3.setVelocity(50, 0)
 })
-game.onUpdateInterval(100, function () {
-    Hero.setVelocity(0, 0)
-})
 game.onUpdateInterval(3000, function () {
     Car02 = sprites.create(img`
         . . . . . . . . . . . . . . . . 
@@ -229,4 +226,7 @@ game.onUpdateInterval(3000, function () {
         `, SpriteKind.Enemy)
     tiles.placeOnTile(Car02, tiles.getTileLocation(0, 9))
     Car02.setVelocity(randint(20, 30), 0)
+})
+game.onUpdateInterval(200, function () {
+    Hero.setVelocity(0, 0)
 })
